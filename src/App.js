@@ -12,7 +12,7 @@ function App() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const { data } = await axios.post("http://localhost:5000/api/analyze", formData, {
+    const { data } = await axios.post("https://doc-analyser-backend.onrender.com/api/analyze", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     });
     setResult(data.analysis);
