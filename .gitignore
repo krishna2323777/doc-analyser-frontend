@@ -1,0 +1,19 @@
+# 🔐 Sensitive files
+.env
+
+# 📦 Dependencies
+node_modules/
+
+# ⚙️ Build outputs
+build/
+dist/
+
+# 💻 OS/system files
+.DS_Store
+Thumbs.db
+
+# 🧪 Logs
+*.log
+
+# 🧹 Editor files
+.vscode/
